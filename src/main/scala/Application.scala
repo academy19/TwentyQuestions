@@ -27,11 +27,11 @@ object Application {
 
   def main(args: Array[String]): Unit = {
 
-    println (listOfPeople.isPersonMaleQuestion(userAnswer("Is person male?\n"))
-                         .isAgeGreaterThan50(userAnswer("Is person older than 50 years old?\n"))
-                         .isDecentPerson(userAnswer("Are they a decent person?\n")) )
+   // println (listOfPeople.isPersonMaleQuestion(userAnswer("Is person male?\n"))
+     //                    .isAgeGreaterThan50(userAnswer("Is person older than 50 years old?\n"))
+    //                     .isDecentPerson(userAnswer("Are they a decent person?\n")) )
 
-
+val areTheyAMale = new Questions(???,???,"Are they male?")
 
 
 
